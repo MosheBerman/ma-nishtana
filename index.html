@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>
+4 Questions in Javascript
+</title>
+<script src="fourQuestions.js">
+</script>
+<style>
+	body{
+		font-family: "Arial", sans-serif;
+		text-align: center;
+	}
+	
+	#header{
+				margin: auto 50px;
+		border: 2px solid #6a547d;
+		background: #f0deff;
+		color: #6a547d;
+	}
+	
+	#text{
+		margin: auto 50px;
+		border: 2px solid #6a547d;
+		background: #f0deff;
+		color: #6a547d;
+	}
+</style>
+</head>
+<body>
+<h1 id="header">Four Questions Rendered in Javascript</h1>
+<div id="text">
+If you see this, then you need to enable Javascript in your browser. 
+</div>
+<script>
+document.getElementById("text").innerHTML = "";
+
+askTheFourQuestions();
+</script>
+</body>
+</html>
